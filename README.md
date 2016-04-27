@@ -29,7 +29,7 @@ Username for 'https://github.com': <USERNAME>
 Password for 'https://USERNAME@github.com': <PASSWORD>
 ```
 
-> Where <REPOSITORY> is the name your your repo (Writings in this example), and <USERNAME> and <PASSWORD> are well... your username and password for GitHub.
+> Where <REPOSITORY> is the name your your repo (Writings in this example), and <USERNAME> and <PASSWORD> are well... your username and password for GitHub. Source: http://stackoverflow.com/questions/8588768/git-push-username-password-how-to-avoid
 
 > Open the GitAutoPush.batch file and edit `cd <path>` by replacing `<path>` with the path to your directory (Writings). 
 > Eg: `C:\Users\Pookie\Desktop\Writings`
