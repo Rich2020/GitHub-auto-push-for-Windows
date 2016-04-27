@@ -16,6 +16,7 @@ Let's say you have a file called "Thesis.docx" (a Word document) and folder on y
 2. Next, go to GitHub and create your repository (lets call it Writings, too) and clone your new repository to your desktop (To the Writings folder).
 
 3. Make sure that your GitHub repository is set to SSH:
+
 ![SSH settings](http://s32.postimg.org/7z323cklh/ssh_pic.png)
 
 4. GitHub requires a username and password and this can be really annoying if you have to type it in every time you push.
