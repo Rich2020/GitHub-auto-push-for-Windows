@@ -11,15 +11,15 @@ No matter what files you want to back up and version, just pop them into a folde
 
 Let's say you have a file called "Thesis.docx" (a Word document) and folder on your desktop called "Writings".
 
-1. Place your Thesis.docx file into your Writings folder (and anything else you want uploaded to GitHub).
+Place your Thesis.docx file into your Writings folder (and anything else you want uploaded to GitHub).
 
-2. Next, go to GitHub and create your repository (lets call it Writings, too) and clone your new repository to your desktop (To the Writings folder).
+Next, go to GitHub and create your repository (lets call it Writings, too) and clone your new repository to your desktop (To the Writings folder).
 
-3. Make sure that your GitHub repository is set to SSH:
+Make sure that your GitHub repository is set to SSH:
 
 ![SSH settings](http://s32.postimg.org/7z323cklh/ssh_pic.png)
 
-4. GitHub requires a username and password and this can be really annoying if you have to type it in every time you push.
+GitHub requires a username and password and this can be really annoying if you have to type it in every time you push.
 Fear not! You can cache your username and password by running the following from your command prompt:
 
 ```
@@ -31,9 +31,9 @@ Password for 'https://USERNAME@github.com': <PASSWORD>
 
 Where <REPOSITORY> is the name your your repo (Writings in this example), and <USERNAME> and <PASSWORD> are well... your username and password for GitHub.
 
-5.  Open the GitAutoPush.batch file and edit `cd <path>` by replacing `<path>` with the path to your directory (Writings). 
+Open the GitAutoPush.batch file and edit `cd <path>` by replacing `<path>` with the path to your directory (Writings). 
 Eg: `C:\Users\Pookie\Desktop\Writings`
 
-6. Now that you are all set up, run the GitAutoPush.batch file. 
+Now that you are all set up, run the GitAutoPush.batch file. 
 
 It will by default, push every 300 seconds (5 minutes). Change as required.
