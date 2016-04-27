@@ -9,9 +9,9 @@ Not anymore!
 
 No matter what files you want to back up and version, just pop them into a folder somewhere and let this script automatically push them to GitHub.
 
-Let's say you have a file called "Thesis.docx" (a Word document) and folder on your desktop called "Writings".
+Let's say you have a file called `Thesis.docx` (a Word document) and folder on your desktop called `Writings`.
 
-> Place your Thesis.docx file into your Writings folder (and anything else you want uploaded to GitHub).
+> Place your Thesis.docx file into your `Writings` folder (and anything else you want uploaded to GitHub).
 
 > Next, go to GitHub and create your repository (lets call it Writings, too) and clone your new repository to your desktop (To the Writings folder).
 
@@ -29,7 +29,7 @@ Username for 'https://github.com': <USERNAME>
 Password for 'https://USERNAME@github.com': <PASSWORD>
 ```
 
-> Where <REPOSITORY> is the name your your repo (Writings in this example), and <USERNAME> and <PASSWORD> are well... your username and password for GitHub. Source: http://stackoverflow.com/questions/8588768/git-push-username-password-how-to-avoid
+> Where `<REPOSITORY>` is the name your your repo (Writings in this example), and `<USERNAME>` and `<PASSWORD>` are well... your username and password for GitHub. Source: http://stackoverflow.com/questions/8588768/git-push-username-password-how-to-avoid
 
 > Open the GitAutoPush.batch file and edit `cd <path>` by replacing `<path>` with the path to your directory (Writings). 
 > Eg: `C:\Users\Pookie\Desktop\Writings`
@@ -37,3 +37,5 @@ Password for 'https://USERNAME@github.com': <PASSWORD>
 > Now that you are all set up, run the GitAutoPush.batch file. 
 
 It will by default, push every 300 seconds (5 minutes). Change as required.
+
+It will push any files in your `Writings` directory, so make sure that you know what is being pushed.
