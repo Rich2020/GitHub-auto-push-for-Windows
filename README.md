@@ -22,13 +22,12 @@ Let's say you have a file called "Thesis.docx" (a Word document) and folder on y
 4. GitHub requires a username and password and this can be really annoying if you have to type it in every time you push.
 Fear not! You can cache your username and password by running the following from your command prompt:
 
-`$ git config credential.helper store`
-
-`$ git push https://github.com/<REPOSITORY>.git`
-
-`Username for 'https://github.com': <USERNAME>`
-
-`Password for 'https://USERNAME@github.com': <PASSWORD>`
+```
+$ git config credential.helper store
+$ git push https://github.com/<REPOSITORY>.git
+Username for 'https://github.com': <USERNAME>
+Password for 'https://USERNAME@github.com': <PASSWORD>
+```
 
 Where <REPOSITORY> is the name your your repo (Writings in this example), and <USERNAME> and <PASSWORD> are well... your username and password for GitHub.
 
