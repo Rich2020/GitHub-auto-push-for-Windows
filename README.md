@@ -23,7 +23,7 @@ Let's say you have a file called `Thesis.docx` (a Word document) and a folder on
 
 ```
 $ git config credential.helper store
-$ git push https://github.com/<REPOSITORY>.git
+$ git push https://github.com/<USERNAME>/<REPOSITORY>.git
 Username for 'https://github.com': <USERNAME>
 Password for 'https://USERNAME@github.com': <PASSWORD>
 ```
