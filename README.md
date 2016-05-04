@@ -1,5 +1,4 @@
 # GitHub-auto-push-for-Windows
-A simple batch script that executes every X seconds and automatically pushes the contents of the specified directory to your GitHub repository.
 
 When writing documents (such as your thesis or a paper), it's a nice idea to have different versions of that document. With versioning, you can look up past versions and copy out whatever has been lost in newer versions. 
 When working on Windows (not so sure about Mac or Linux), it can be rather worring that at any moment, your computer can go "boom!". 
