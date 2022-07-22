@@ -6,7 +6,7 @@
 
 	
 	::Add all files in the directory
-	git add --all
+	git add --all ./
 	
 	::Commit all changes with the message "auto push". 
 	::Change as needed.
